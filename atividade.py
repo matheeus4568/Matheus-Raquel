@@ -16,11 +16,20 @@ class Matheus(Raquel):
         self.gosta_de = input("Digite uma coisa que tu gosta: ")
     
     def getDados(self):
-        return '''nome = {self.nome}
+        return '''=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+nome = {self.nome}
 idade = {_self._idade}
 cpf = {self.__cpf}
 altura em cm: {__self.alturacm}
-{self.nome} gosta de {self.gosta_de}'''
+{self.nome} gosta de {self.gosta_de}
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-='''
 
     def gritar(self):
         return "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    
+
+teste = Matheus()
+teste.setAtr()
+teste.getAtr()
+teste.gritar()
+
