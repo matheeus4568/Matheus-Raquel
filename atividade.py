@@ -30,6 +30,6 @@ altura em cm: {__self.alturacm}
 
 teste = Matheus()
 teste.setAtr()
-teste.getAtr()
-teste.gritar()
+print(teste.getDados())
+print(teste.gritar())
 
